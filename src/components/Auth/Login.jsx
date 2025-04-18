@@ -23,6 +23,7 @@ const Login = ({handleLogin}) => {
             }}
             autoComplete='off' // Disable autocomplete for the form fields
             className='flex flex-col items-center justify-center'>
+                <h1 className='text-3xl text-emerald-600 font-bold'>Login to EMS</h1> {/* Login title */}
                 <input
                 value={email} // Bind the input value to the email state
                 onChange={(e) => setEmail(e.target.value)} // Update the email state when the input value changes
